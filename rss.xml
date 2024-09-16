@@ -10,8 +10,8 @@
         </author>
         <description>一个种植思想、不断成长的园地</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 16 Sep 2024 15:34:59 +0800</pubDate>
-        <lastBuildDate>Mon, 16 Sep 2024 15:34:59 +0800</lastBuildDate>
+        <pubDate>Sat, 13 Jul 2013 20:46:25 +0800</pubDate>
+        <lastBuildDate>Sat, 13 Jul 2013 20:46:25 +0800</lastBuildDate>
         <category term="互联网" />
         <category term="生活" />
         <category term="好奇心" />
@@ -28,10 +28,20 @@
         <category term="ios" />
         <category term="hexo" />
         <item>
-            <guid isPermalink="true">https://xkdd3000.github.io/2024/09/16/hello-world/</guid>
+            <guid isPermalink="true">https://xkdd3000.github.io/2013/07/13/hello-world/</guid>
             <title>Hello World</title>
-            <link>https://xkdd3000.github.io/2024/09/16/hello-world/</link>
-            <pubDate>Mon, 16 Sep 2024 15:34:59 +0800</pubDate>
+            <link>https://xkdd3000.github.io/2013/07/13/hello-world/</link>
+            <category term="Sports" scheme="https://xkdd3000.github.io/categories/Sports/" />
+            <category term="Baseball" scheme="https://xkdd3000.github.io/categories/Sports/Baseball/" />
+            <category term="MLB" scheme="https://xkdd3000.github.io/categories/MLB/" />
+            <category term="American League" scheme="https://xkdd3000.github.io/categories/MLB/American-League/" />
+            <category term="Boston Red Sox" scheme="https://xkdd3000.github.io/categories/MLB/American-League/Boston-Red-Sox/" />
+            <category term="New York Yankees" scheme="https://xkdd3000.github.io/categories/MLB/American-League/New-York-Yankees/" />
+            <category term="Rivalries" scheme="https://xkdd3000.github.io/categories/Rivalries/" />
+            <category term="Injury" scheme="https://xkdd3000.github.io/tags/Injury/" />
+            <category term="Fight" scheme="https://xkdd3000.github.io/tags/Fight/" />
+            <category term="Shocking" scheme="https://xkdd3000.github.io/tags/Shocking/" />
+            <pubDate>Sat, 13 Jul 2013 20:46:25 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
