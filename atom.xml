@@ -25,6 +25,36 @@
     <category term="ios" />
     <category term="hexo" />
     <entry>
+        <id>https://xkdd3000.github.io/2022/07/01/cognition-logging/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Hexo 环境搭建</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/cognition-logging/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="认知日志" scheme="https://xkdd3000.github.io/categories/cognition-logging/" />
+        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/2022/07/01/financial-freedom/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Hexo 环境搭建</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/financial-freedom/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="财务自由之路" scheme="https://xkdd3000.github.io/categories/financial-freedom/" />
+        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/2022/07/01/hacker/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Hexo 环境搭建</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/hacker/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="网络安全" scheme="https://xkdd3000.github.io/categories/hacker/" />
+        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
         <id>https://xkdd3000.github.io/2022/07/01/blog-setup/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>用Hexo从零开始搭建个人博客</title>
         <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/blog-setup/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
@@ -165,36 +195,6 @@ hexo g -d
 </content>
         <category term="博客构筑" scheme="https://xkdd3000.github.io/categories/blog-setup/" />
         <category term="博客设置" scheme="https://xkdd3000.github.io/tags/%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE/" />
-        <updated>2022-06-30T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://xkdd3000.github.io/2022/07/01/cognition-logging/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
-        <title>Hexo 环境搭建</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/cognition-logging/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
-</content>
-        <category term="认知日志" scheme="https://xkdd3000.github.io/categories/cognition-logging/" />
-        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
-        <updated>2022-06-30T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://xkdd3000.github.io/2022/07/01/financial-freedom/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
-        <title>Hexo 环境搭建</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/financial-freedom/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
-</content>
-        <category term="财务自由之路" scheme="https://xkdd3000.github.io/categories/financial-freedom/" />
-        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
-        <updated>2022-06-30T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://xkdd3000.github.io/2022/07/01/hacker/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
-        <title>Hexo 环境搭建</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/hacker/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
-</content>
-        <category term="网络安全" scheme="https://xkdd3000.github.io/categories/hacker/" />
-        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
         <updated>2022-06-30T16:00:00.000Z</updated>
     </entry>
 </feed>
