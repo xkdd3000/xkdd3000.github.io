@@ -8,7 +8,7 @@
     <author>
       <name>人间散客</name>
     </author>
-    <updated>2013-07-13T12:46:25.000Z</updated>
+    <updated>2022-06-30T16:00:00.000Z</updated>
     <category term="互联网" />
     <category term="生活" />
     <category term="好奇心" />
@@ -25,33 +25,43 @@
     <category term="ios" />
     <category term="hexo" />
     <entry>
-        <id>https://xkdd3000.github.io/2013/07/13/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/2013/07/13/hello-world/"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo server
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo generate
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo deploy
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+        <id>https://xkdd3000.github.io/2022/07/01/cognition-logging/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Hexo 环境搭建</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/cognition-logging/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
 </content>
-        <category term="Sports" scheme="https://xkdd3000.github.io/categories/Sports/" />
-        <category term="Baseball" scheme="https://xkdd3000.github.io/categories/Sports/Baseball/" />
-        <category term="MLB" scheme="https://xkdd3000.github.io/categories/MLB/" />
-        <category term="American League" scheme="https://xkdd3000.github.io/categories/MLB/American-League/" />
-        <category term="Boston Red Sox" scheme="https://xkdd3000.github.io/categories/MLB/American-League/Boston-Red-Sox/" />
-        <category term="New York Yankees" scheme="https://xkdd3000.github.io/categories/MLB/American-League/New-York-Yankees/" />
-        <category term="Rivalries" scheme="https://xkdd3000.github.io/categories/Rivalries/" />
-        <category term="Injury" scheme="https://xkdd3000.github.io/tags/Injury/" />
-        <category term="Fight" scheme="https://xkdd3000.github.io/tags/Fight/" />
-        <category term="Shocking" scheme="https://xkdd3000.github.io/tags/Shocking/" />
-        <updated>2013-07-13T12:46:25.000Z</updated>
+        <category term="认知日志" scheme="https://xkdd3000.github.io/categories/cognition-logging/" />
+        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/2022/07/01/blog-setup/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Hexo 环境搭建</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/blog-setup/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="博客构筑" scheme="https://xkdd3000.github.io/categories/blog-setup/" />
+        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/2022/07/01/financial-freedom/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Hexo 环境搭建</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/financial-freedom/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="财务自由之路" scheme="https://xkdd3000.github.io/categories/financial-freedom/" />
+        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/2022/07/01/hacker/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <title>Hexo 环境搭建</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/2022/07/01/hacker/Hexo%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="网络安全" scheme="https://xkdd3000.github.io/categories/hacker/" />
+        <category term="搭建博客" scheme="https://xkdd3000.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
     </entry>
 </feed>
