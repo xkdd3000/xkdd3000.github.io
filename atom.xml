@@ -25,9 +25,59 @@
     <category term="ios" />
     <category term="hexo" />
     <entry>
-        <id>https://xkdd3000.github.io/hacker/%E8%B5%84%E4%BA%A7%E6%9E%B6%E6%9E%84&amp;%E7%95%AA%E5%A4%96%E5%AE%89%E5%85%A8&amp;%E8%80%83%E8%99%91%E9%98%BB%E7%A2%8D/</id>
-        <title>资产架构&amp;番外安全&amp;考虑阻碍</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/hacker/%E8%B5%84%E4%BA%A7%E6%9E%B6%E6%9E%84&amp;%E7%95%AA%E5%A4%96%E5%AE%89%E5%85%A8&amp;%E8%80%83%E8%99%91%E9%98%BB%E7%A2%8D/"/>
+        <id>https://xkdd3000.github.io/hacker/%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86/</id>
+        <title>基础信息搜集</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/hacker/%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86/"/>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;返回数据包中包含：中间件、编程语言、源码名称 / 框架名称 / CMS 名称、&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中间件判断&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;端口扫描，开放了什么端口，&lt;a href=&#34;https://blog.csdn.net/m0_56378124/article/details/118086444&#34;&gt;各种中间件 数据库常用默认端口&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断操作系统：windows 系统 / Linux 系统&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;文件名大小写判定，不是百分百的，与中间件有关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ping 命令判断操作系统：&lt;a href=&#34;https://blog.csdn.net/piaoxuan1987/article/details/79503554&#34;&gt;如何根据 TTL 判断主机的操作系统&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不够明确&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;nmap 端口扫描 判断&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断数据库&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;搭建组合，eg：百度搜索 php 与什么数据库最佳组合&lt;/li&gt;
+&lt;li&gt;端口扫描，开放了什么端口，&lt;a href=&#34;https://blog.csdn.net/SeniorShen/article/details/108643979&#34;&gt;常见的数据库，默认端口号是多少？&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;扫描工具&lt;/li&gt;
+&lt;li&gt;扫描平台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="网络安全" scheme="https://xkdd3000.github.io/categories/hacker/" />
+        <category term="成长足迹" scheme="https://xkdd3000.github.io/tags/%E6%88%90%E9%95%BF%E8%B6%B3%E8%BF%B9/" />
+        <category term="红队渗透" scheme="https://xkdd3000.github.io/tags/%E7%BA%A2%E9%98%9F%E6%B8%97%E9%80%8F/" />
+        <category term="信息搜集" scheme="https://xkdd3000.github.io/tags/%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86/" />
+        <updated>2023-06-02T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/hacker/%E8%B5%84%E4%BA%A7%E6%9E%B6%E6%9E%84&amp;%E7%95%AA%E5%A4%96%E5%AE%89%E5%85%A8&amp;%E9%98%BB%E7%A2%8D/</id>
+        <title>资产架构&amp;番外安全&amp;阻碍</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/hacker/%E8%B5%84%E4%BA%A7%E6%9E%B6%E6%9E%84&amp;%E7%95%AA%E5%A4%96%E5%AE%89%E5%85%A8&amp;%E9%98%BB%E7%A2%8D/"/>
         <content type="html">&lt;h1 id=&#34;什么是网络资产&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是网络资产&#34;&gt;#&lt;/a&gt; 什么是网络资产？&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_37813152/article/details/134375769&#34;&gt;https://blog.csdn.net/weixin_37813152/article/details/134375769&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;资产架构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#资产架构&#34;&gt;#&lt;/a&gt; 资产架构&lt;/h1&gt;
@@ -114,6 +164,10 @@
 &lt;li&gt;
 &lt;p&gt;WAF（web 应用防火墙）&lt;/p&gt;
 &lt;p&gt;防止一些利用 web 应用漏洞的攻击&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;普通 waf&lt;/li&gt;
+&lt;li&gt;云 waf，会自动学习，更智能&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;主机防护防火墙&lt;/p&gt;
@@ -124,6 +178,7 @@
         <category term="网络安全" scheme="https://xkdd3000.github.io/categories/hacker/" />
         <category term="成长足迹" scheme="https://xkdd3000.github.io/tags/%E6%88%90%E9%95%BF%E8%B6%B3%E8%BF%B9/" />
         <category term="红队渗透" scheme="https://xkdd3000.github.io/tags/%E7%BA%A2%E9%98%9F%E6%B8%97%E9%80%8F/" />
+        <category term="攻击角度" scheme="https://xkdd3000.github.io/tags/%E6%94%BB%E5%87%BB%E8%A7%92%E5%BA%A6/" />
         <updated>2023-06-02T16:00:00.000Z</updated>
     </entry>
     <entry>
@@ -236,10 +291,18 @@
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_10&#34;&gt; 网站（Web 应用）相关的基础知识&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_11&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_11&#34;&gt; 代理基础知识&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_12&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_12&#34;&gt; 抓包 &amp;amp; 封包技术&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_13&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_13&#34;&gt; &lt;a href=&#34;%E5%AF%86%E7%A0%81%E5%AD%A6%E7%9A%84%E5%9F%BA%E7%A1%80%E4%BA%86%E8%A7%A3/&#34;&gt;密码学的基础了解&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_14&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_14&#34;&gt; 资产架构 &amp;amp; 番外安全 &amp;amp; 考虑阻碍&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_13&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_13&#34;&gt; &lt;a href=&#34;../%E5%AF%86%E7%A0%81%E5%AD%A6%E7%9A%84%E5%9F%BA%E7%A1%80%E4%BA%86%E8%A7%A3&#34;&gt;密码学的基础了解&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_14&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_14&#34;&gt; &lt;a href=&#34;../%E8%B5%84%E4%BA%A7%E6%9E%B6%E6%9E%84&amp;amp;%E7%95%AA%E5%A4%96%E5%AE%89%E5%85%A8&amp;amp;%E9%98%BB%E7%A2%8D&#34;&gt;资产架构 &amp;amp; 番外安全 &amp;amp; 考虑阻碍&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;信息搜集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#信息搜集&#34;&gt;#&lt;/a&gt; 信息搜集&lt;/h1&gt;
+&lt;h1 id=&#34;信息搜集信息打点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#信息搜集信息打点&#34;&gt;#&lt;/a&gt; 信息搜集 / 信息打点&lt;/h1&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_15&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_15&#34;&gt; 基础信息搜集（搭建的组合信息）&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_16&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_16&#34;&gt; 系统信息搜集（服务器的情况）&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_17&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_17&#34;&gt; 应用信息搜集（源码、插件等信息）&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_18&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_18&#34;&gt; 防护信息搜集（安全防护等阻碍攻击的信息）&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_19&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_19&#34;&gt; 人员信息搜集（社工类）&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_20&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_20&#34;&gt; 其他信息搜集（企业子公司等信息）&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;漏洞挖掘&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#漏洞挖掘&#34;&gt;#&lt;/a&gt; 漏洞挖掘&lt;/h1&gt;
 &lt;h1 id=&#34;后渗透技术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后渗透技术&#34;&gt;#&lt;/a&gt; 后渗透技术&lt;/h1&gt;
 &lt;h1 id=&#34;社会工程学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#社会工程学&#34;&gt;#&lt;/a&gt; 社会工程学&lt;/h1&gt;
@@ -248,6 +311,28 @@
         <category term="成长足迹" scheme="https://xkdd3000.github.io/tags/%E6%88%90%E9%95%BF%E8%B6%B3%E8%BF%B9/" />
         <category term="红队渗透" scheme="https://xkdd3000.github.io/tags/%E7%BA%A2%E9%98%9F%E6%B8%97%E9%80%8F/" />
         <updated>2023-05-31T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/cognition-logging/%E8%AE%A4%E7%9F%A5%E6%97%A5%E5%BF%971/</id>
+        <title>认知日志1</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/cognition-logging/%E8%AE%A4%E7%9F%A5%E6%97%A5%E5%BF%971/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="认知日志" scheme="https://xkdd3000.github.io/categories/cognition-logging/" />
+        <category term="人生路" scheme="https://xkdd3000.github.io/tags/%E4%BA%BA%E7%94%9F%E8%B7%AF/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://xkdd3000.github.io/financial-freedom/%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</id>
+        <title>财务自由之路</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/financial-freedom/%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
+</content>
+        <category term="财务自由之路" scheme="https://xkdd3000.github.io/categories/financial-freedom/" />
+        <category term="计划" scheme="https://xkdd3000.github.io/tags/%E8%AE%A1%E5%88%92/" />
+        <updated>2022-06-30T16:00:00.000Z</updated>
     </entry>
     <entry>
         <id>https://xkdd3000.github.io/blog-setup/ShokaX%20%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/</id>
@@ -353,17 +438,29 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
         <updated>2022-06-30T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://xkdd3000.github.io/blog-setup/%E4%BD%BF%E7%94%A8pnpm%20%E5%AE%89%E8%A3%85%20hexo-deployer-git/</id>
-        <title>使用pnpm 安装 hexo-deployer-git</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/blog-setup/%E4%BD%BF%E7%94%A8pnpm%20%E5%AE%89%E8%A3%85%20hexo-deployer-git/"/>
-        <content type="html">&lt;p&gt;使用  &lt;code&gt;pnpm&lt;/code&gt;  安装  &lt;code&gt;hexo-deployer-git&lt;/code&gt;  非常简单。可以通过以下命令进行安装：&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-deployer-git &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;解释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解释&#34;&gt;#&lt;/a&gt; 解释&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;pnpm add&lt;/code&gt; ：这是  &lt;code&gt;pnpm&lt;/code&gt;  用来安装依赖包的命令，相当于  &lt;code&gt;npm install&lt;/code&gt; 。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;hexo-deployer-git&lt;/code&gt; ：这是要安装的插件名称。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;--save&lt;/code&gt; ：将依赖保存到  &lt;code&gt;package.json&lt;/code&gt;  中，确保项目的依赖关系被记录。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;安装完成后，你就可以在 Hexo 配置文件  &lt;code&gt;_config.yml&lt;/code&gt;  中配置  &lt;code&gt;hexo-deployer-git&lt;/code&gt;  来使用了。&lt;/p&gt;
+        <id>https://xkdd3000.github.io/blog-setup/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/</id>
+        <title>ShokaX 代码块未正确渲染问题解决</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/blog-setup/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/"/>
+        <content type="html">&lt;p&gt;能否贴出 package.json&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/XketsuroX&#34;&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98.assets/68598198.jpeg&#34; alt=&#34;@XketsuroX&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Author&lt;/p&gt;
+&lt;h3 id=&#34;xketsurox-commented-3-weeks-ago&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xketsurox-commented-3-weeks-ago&#34;&gt;#&lt;/a&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/XketsuroX&#34;&gt;XketsuroX&lt;/a&gt;&lt;/strong&gt; commented &lt;a href=&#34;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321#issuecomment-2308929521&#34;&gt;3 weeks ago&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;能否贴出 package.json &lt;code&gt;&amp;#123;  &amp;quot;name&amp;quot;: &amp;quot;hexo-site&amp;quot;,  &amp;quot;version&amp;quot;: &amp;quot;0.0.0&amp;quot;,  &amp;quot;private&amp;quot;: true,  &amp;quot;scripts&amp;quot;: &amp;#123;    &amp;quot;build&amp;quot;: &amp;quot;hexo generate&amp;quot;,    &amp;quot;clean&amp;quot;: &amp;quot;hexo clean&amp;quot;,    &amp;quot;deploy&amp;quot;: &amp;quot;hexo deploy&amp;quot;,    &amp;quot;server&amp;quot;: &amp;quot;hexo server&amp;quot;  &amp;#125;,  &amp;quot;hexo&amp;quot;: &amp;#123;    &amp;quot;version&amp;quot;: &amp;quot;7.3.0&amp;quot;  &amp;#125;,  &amp;quot;dependencies&amp;quot;: &amp;#123;    &amp;quot;hexo&amp;quot;: &amp;quot;^7.3.0&amp;quot;,    &amp;quot;hexo-abbrlink&amp;quot;: &amp;quot;^2.2.1&amp;quot;,    &amp;quot;hexo-admin&amp;quot;: &amp;quot;^2.3.0&amp;quot;,    &amp;quot;hexo-auto-category&amp;quot;: &amp;quot;^0.2.2&amp;quot;,    &amp;quot;hexo-generator-archive&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-generator-category&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-generator-index&amp;quot;: &amp;quot;^4.0.0&amp;quot;,    &amp;quot;hexo-generator-tag&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-helper-live2d&amp;quot;: &amp;quot;^3.1.1&amp;quot;,    &amp;quot;hexo-renderer-ejs&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-renderer-marked&amp;quot;: &amp;quot;^6.3.0&amp;quot;,    &amp;quot;hexo-renderer-stylus&amp;quot;: &amp;quot;^3.0.1&amp;quot;,    &amp;quot;hexo-server&amp;quot;: &amp;quot;^3.0.0&amp;quot;,    &amp;quot;hexo-theme-landscape&amp;quot;: &amp;quot;^1.0.0&amp;quot;,    &amp;quot;hexo-theme-shokax&amp;quot;: &amp;quot;^0.4.11&amp;quot;,    &amp;quot;hexo-word-counter&amp;quot;: &amp;quot;^0.2.0&amp;quot;,    &amp;quot;live2d-widget-model-koharu&amp;quot;: &amp;quot;^1.0.5&amp;quot;  &amp;#125; &amp;#125;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/D-Sketon&#34;&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98.assets/49871906.jpeg&#34; alt=&#34;@D-Sketon&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Member&lt;/p&gt;
+&lt;h3 id=&#34;d-sketon-commented-3-weeks-ago&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#d-sketon-commented-3-weeks-ago&#34;&gt;#&lt;/a&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/D-Sketon&#34;&gt;D-Sketon&lt;/a&gt;&lt;/strong&gt; commented &lt;a href=&#34;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321#issuecomment-2309069441&#34;&gt;3 weeks ago&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;请卸载 hexo-renderer-marked 并安装 hexo-renderer-multi-next-markdown-it&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href=&#34;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321&#34;&gt;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;要使用  &lt;code&gt;pnpm&lt;/code&gt;  卸载  &lt;code&gt;hexo-renderer-marked&lt;/code&gt;  并安装  &lt;code&gt;hexo-renderer-multi-next-markdown-it&lt;/code&gt; ，请执行以下命令：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;卸载  &lt;code&gt;hexo-renderer-marked&lt;/code&gt; ：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; remove hexo-renderer-marked&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装  &lt;code&gt;hexo-renderer-multi-next-markdown-it&lt;/code&gt; ：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-renderer-multi-next-markdown-it&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这两个命令会分别卸载旧的渲染器并安装新的渲染器到你的 Hexo 项目中。&lt;/p&gt;
 </content>
         <category term="博客构筑" scheme="https://xkdd3000.github.io/categories/blog-setup/" />
         <category term="博客设置" scheme="https://xkdd3000.github.io/tags/%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE/" />
@@ -508,55 +605,21 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
         <updated>2022-06-30T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://xkdd3000.github.io/blog-setup/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/</id>
-        <title>ShokaX 代码块未正确渲染问题解决</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/blog-setup/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/"/>
-        <content type="html">&lt;p&gt;能否贴出 package.json&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/XketsuroX&#34;&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98.assets/68598198.jpeg&#34; alt=&#34;@XketsuroX&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Author&lt;/p&gt;
-&lt;h3 id=&#34;xketsurox-commented-3-weeks-ago&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xketsurox-commented-3-weeks-ago&#34;&gt;#&lt;/a&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/XketsuroX&#34;&gt;XketsuroX&lt;/a&gt;&lt;/strong&gt; commented &lt;a href=&#34;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321#issuecomment-2308929521&#34;&gt;3 weeks ago&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;能否贴出 package.json &lt;code&gt;&amp;#123;  &amp;quot;name&amp;quot;: &amp;quot;hexo-site&amp;quot;,  &amp;quot;version&amp;quot;: &amp;quot;0.0.0&amp;quot;,  &amp;quot;private&amp;quot;: true,  &amp;quot;scripts&amp;quot;: &amp;#123;    &amp;quot;build&amp;quot;: &amp;quot;hexo generate&amp;quot;,    &amp;quot;clean&amp;quot;: &amp;quot;hexo clean&amp;quot;,    &amp;quot;deploy&amp;quot;: &amp;quot;hexo deploy&amp;quot;,    &amp;quot;server&amp;quot;: &amp;quot;hexo server&amp;quot;  &amp;#125;,  &amp;quot;hexo&amp;quot;: &amp;#123;    &amp;quot;version&amp;quot;: &amp;quot;7.3.0&amp;quot;  &amp;#125;,  &amp;quot;dependencies&amp;quot;: &amp;#123;    &amp;quot;hexo&amp;quot;: &amp;quot;^7.3.0&amp;quot;,    &amp;quot;hexo-abbrlink&amp;quot;: &amp;quot;^2.2.1&amp;quot;,    &amp;quot;hexo-admin&amp;quot;: &amp;quot;^2.3.0&amp;quot;,    &amp;quot;hexo-auto-category&amp;quot;: &amp;quot;^0.2.2&amp;quot;,    &amp;quot;hexo-generator-archive&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-generator-category&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-generator-index&amp;quot;: &amp;quot;^4.0.0&amp;quot;,    &amp;quot;hexo-generator-tag&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-helper-live2d&amp;quot;: &amp;quot;^3.1.1&amp;quot;,    &amp;quot;hexo-renderer-ejs&amp;quot;: &amp;quot;^2.0.0&amp;quot;,    &amp;quot;hexo-renderer-marked&amp;quot;: &amp;quot;^6.3.0&amp;quot;,    &amp;quot;hexo-renderer-stylus&amp;quot;: &amp;quot;^3.0.1&amp;quot;,    &amp;quot;hexo-server&amp;quot;: &amp;quot;^3.0.0&amp;quot;,    &amp;quot;hexo-theme-landscape&amp;quot;: &amp;quot;^1.0.0&amp;quot;,    &amp;quot;hexo-theme-shokax&amp;quot;: &amp;quot;^0.4.11&amp;quot;,    &amp;quot;hexo-word-counter&amp;quot;: &amp;quot;^0.2.0&amp;quot;,    &amp;quot;live2d-widget-model-koharu&amp;quot;: &amp;quot;^1.0.5&amp;quot;  &amp;#125; &amp;#125;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/D-Sketon&#34;&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98.assets/49871906.jpeg&#34; alt=&#34;@D-Sketon&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Member&lt;/p&gt;
-&lt;h3 id=&#34;d-sketon-commented-3-weeks-ago&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#d-sketon-commented-3-weeks-ago&#34;&gt;#&lt;/a&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/D-Sketon&#34;&gt;D-Sketon&lt;/a&gt;&lt;/strong&gt; commented &lt;a href=&#34;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321#issuecomment-2309069441&#34;&gt;3 weeks ago&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;请卸载 hexo-renderer-marked 并安装 hexo-renderer-multi-next-markdown-it&lt;/p&gt;
-&lt;p&gt;原文链接：&lt;a href=&#34;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321&#34;&gt;https://github.com/theme-shoka-x/hexo-theme-shokaX/issues/321&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;要使用  &lt;code&gt;pnpm&lt;/code&gt;  卸载  &lt;code&gt;hexo-renderer-marked&lt;/code&gt;  并安装  &lt;code&gt;hexo-renderer-multi-next-markdown-it&lt;/code&gt; ，请执行以下命令：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;卸载  &lt;code&gt;hexo-renderer-marked&lt;/code&gt; ：&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; remove hexo-renderer-marked&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;安装  &lt;code&gt;hexo-renderer-multi-next-markdown-it&lt;/code&gt; ：&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-renderer-multi-next-markdown-it&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这两个命令会分别卸载旧的渲染器并安装新的渲染器到你的 Hexo 项目中。&lt;/p&gt;
+        <id>https://xkdd3000.github.io/blog-setup/%E4%BD%BF%E7%94%A8pnpm%20%E5%AE%89%E8%A3%85%20hexo-deployer-git/</id>
+        <title>使用pnpm 安装 hexo-deployer-git</title>
+        <link rel="alternate" href="https://xkdd3000.github.io/blog-setup/%E4%BD%BF%E7%94%A8pnpm%20%E5%AE%89%E8%A3%85%20hexo-deployer-git/"/>
+        <content type="html">&lt;p&gt;使用  &lt;code&gt;pnpm&lt;/code&gt;  安装  &lt;code&gt;hexo-deployer-git&lt;/code&gt;  非常简单。可以通过以下命令进行安装：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-deployer-git &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;解释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解释&#34;&gt;#&lt;/a&gt; 解释&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pnpm add&lt;/code&gt; ：这是  &lt;code&gt;pnpm&lt;/code&gt;  用来安装依赖包的命令，相当于  &lt;code&gt;npm install&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hexo-deployer-git&lt;/code&gt; ：这是要安装的插件名称。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--save&lt;/code&gt; ：将依赖保存到  &lt;code&gt;package.json&lt;/code&gt;  中，确保项目的依赖关系被记录。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安装完成后，你就可以在 Hexo 配置文件  &lt;code&gt;_config.yml&lt;/code&gt;  中配置  &lt;code&gt;hexo-deployer-git&lt;/code&gt;  来使用了。&lt;/p&gt;
 </content>
         <category term="博客构筑" scheme="https://xkdd3000.github.io/categories/blog-setup/" />
         <category term="博客设置" scheme="https://xkdd3000.github.io/tags/%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE/" />
         <category term="ShokaX" scheme="https://xkdd3000.github.io/tags/ShokaX/" />
-        <updated>2022-06-30T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://xkdd3000.github.io/financial-freedom/%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</id>
-        <title>财务自由之路</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/financial-freedom/%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
-</content>
-        <category term="财务自由之路" scheme="https://xkdd3000.github.io/categories/financial-freedom/" />
-        <category term="计划" scheme="https://xkdd3000.github.io/tags/%E8%AE%A1%E5%88%92/" />
-        <updated>2022-06-30T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://xkdd3000.github.io/cognition-logging/%E8%AE%A4%E7%9F%A5%E6%97%A5%E5%BF%971/</id>
-        <title>认知日志1</title>
-        <link rel="alternate" href="https://xkdd3000.github.io/cognition-logging/%E8%AE%A4%E7%9F%A5%E6%97%A5%E5%BF%971/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;一直想搭建一个属于自己的博客，一方面可以记录自己的学习成果和技术理解，一方面在面试中也是加分项。在此记录下首次搭建个人博客的踩坑之路。&lt;/p&gt;
-</content>
-        <category term="认知日志" scheme="https://xkdd3000.github.io/categories/cognition-logging/" />
-        <category term="人生路" scheme="https://xkdd3000.github.io/tags/%E4%BA%BA%E7%94%9F%E8%B7%AF/" />
         <updated>2022-06-30T16:00:00.000Z</updated>
     </entry>
 </feed>
